@@ -1,0 +1,40 @@
+#root {
+    max-width: 1280px;
+    margin: 0px auto auto auto;
+    padding: 0;
+    text-align: left;
+}
+
+.head {
+    margin: 20px 0px;
+}
+
+.inputTask {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #777;
+    border-radius: 8px;
+}
+
+.inputTask:focus {
+    outline: none;
+    border: 2px solid #ccc;
+}
+
+.buttonTask {
+    margin-left: 1rem;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #777;
+    border-radius: 8px;
+}
+
+.buttonTask:hover {
+    outline: none;
+    border: 2px solid #ccc;
+}
+
+.listTask li {
+    margin-bottom: 10px;
+}
