@@ -10,6 +10,13 @@ function App() {
         setTask("")
     }
 
+    function func1(j){
+        return <div>
+            text{j}
+            <button>f</button>
+        </div>
+    }
+
     return (
         <>
             <h1 className="head">To-Do List</h1>
@@ -30,8 +37,8 @@ function App() {
                 <button className="buttonTask" onClick={addTask}>Add</button>
             </div>
             <div className="listTask">
-                <ul className="taskList">
-                    {tasks.map((t,i) => <li key={i}>{t}</li>)}
+                <ul>
+                    {tasks.map((t,i) => <li key={i}>{func1(t)}</li>)}
                 </ul>
             </div>
         </>
